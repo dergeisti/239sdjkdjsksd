@@ -1,0 +1,38 @@
+name: SmashDashMash
+version: '${project.version}'
+main: de.geisti.smashdashmash.Main
+api-version: '1.21'
+load: STARTUP
+authors: [Geisti]
+description: SmashDash System by Geisti
+commands:
+  pos1:
+    description: Setzt die erste Position für eine Region.
+  pos2:
+    description: Setzt die zweite Position für eine Region.
+  saveregion:
+    description: Speichert eine Region mit einem Namen.
+  regions:
+    description: Zeigt alle gespeicherten Regionen an.
+  setspawn:
+    description: Setzt einen Spawnpunkt in einer Region.
+  region:
+    description: Teleportiert zu einem Region-Spawn.
+  setvoid:
+    description: Setzt die Void Location für die 'waiting' Region.
+  gamestate:
+    description: Zeigt den aktuellen GameState eines Spielers an.
+  setgamestate:
+    description: Setzt den GameState eines Spielers.
+  delspawn:
+    description: Löscht einen Spawnpunkt in einer Region.
+  delregion:
+    description: Löscht eine Region.
+  build:
+    description: Aktiviert den Build-Modus.
+  setup:
+    description: Aktiviert den Setup-Modus.
+  start:
+    description: Startet den Countdown.
+  forcestart:
+    description: Erzwingt den Start des Countdowns.
