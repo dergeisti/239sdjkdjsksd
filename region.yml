@@ -1,0 +1,23 @@
+regions:
+  waiting:
+    pos1:
+      world: warte  # Muss exakt mit dem Namen der geladenen Welt übereinstimmen
+      x: 100
+      y: 65
+      z: 100
+    pos2:
+      world: warte
+      x: 150
+      y: 70
+      z: 150
+  Pacman:
+    pos1:
+      world: Pacman
+      x: 200
+      y: 65
+      z: 200
+    pos2:
+      world: Pacman
+      x: 250
+      y: 70
+      z: 250
